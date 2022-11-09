@@ -1,25 +1,27 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Reza Kameli",
+  "name": "Reza Kameli",
+  "description": "My privet site belong Reza Kameli a frontend developer",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "MyPic.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "MyPic.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "MyPic.png",
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
+
