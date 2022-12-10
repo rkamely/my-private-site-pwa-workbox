@@ -18,10 +18,10 @@ function Experience(props) {
                 </div>
                 <img src={props.img} alt=""/>
             </div>
-            <h4 style={!lightTheme ? {} : {color: "#a9a9a9"}}>Tasks: </h4>
+            <h4 style={!lightTheme ? {} : {color: "#a9a9a9"}}>Achievements: </h4>
             <div className='tasksItems' style={!lightTheme ? {} : {color: "#a9a9a9"}}> {props.Duties}</div>
-            <h4 style={!lightTheme ? {} : {color: "#a9a9a9"}}> Achievements: </h4>
-            <div className='tasksItems'>{props.achievements}</div>
+            {/*<h4 style={!lightTheme ? {} : {color: "#a9a9a9"}}> Achievements: </h4>*/}
+            {/*<div className='tasksItems'>{props.achievements}</div>*/}
         </div>
     );
 }

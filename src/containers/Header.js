@@ -6,9 +6,8 @@ import ThemeBtn from "../components/Button/ThemeBtn";
 import './Header.scss';
 
 
-function Header() {
+function Header({open, setOpen}) {
 
-    const [open, setOpen] = useState(false)
 
     const scrollToSection = (e) => {
         setOpen(false)
@@ -23,7 +22,7 @@ function Header() {
     }
 
     return (
-        <div className='headerRelative'>
+        <div className='headerRelative' style={{overflowY:"hidden"}}>
             <nav id='Header' className="Header">
                 <div className='HamburgerBtn' onClick={mobileMenu}><HamburgerButton open={open}/></div>
                 <div className={open ? 'rightSide' : 'closeRightSide'}>
@@ -35,7 +34,6 @@ function Header() {
                     <button onClick={() => scrollToSection('Footer')}>Contact Me</button>
                 </div>
                 <div className='leftSide'>
-
                     <ThemeBtn/>
                 </div>
             </nav>

@@ -30,7 +30,7 @@ function Projects() {
                             This site helps sales managers and their team members to understand better how they are
                             performing.
                         </p>
-                        <ButtonContactMe href={"https://panel-zeta-virid.vercel.app/"} content={'Look it'} width={'40%'}
+                        <ButtonContactMe href={"https://panel-master-vercel.vercel.app/"} content={'Look it'} width={'40%'}
                                          height={'50px'}/>
                     </div>
                 </div>
