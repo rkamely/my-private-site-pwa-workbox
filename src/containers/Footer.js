@@ -11,7 +11,7 @@ import './Footer.scss';
 import {AiOutlineLinkedin, AiOutlineMail} from "react-icons/ai";
 import {BsGithub} from "react-icons/bs";
 import {BiPhoneCall} from "react-icons/bi";
-import myPic from "../assets/MyPic.png"
+import myPic from "../assets/MyPic.JPG"
 
 function Footer() {
     const [contactUsInfo, setContactUsInfo] = useState({

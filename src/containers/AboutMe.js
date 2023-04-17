@@ -12,25 +12,24 @@ function AboutMe() {
     const {lightTheme} = useContext(SwitchContext);
     useEffect(() => {
         AOS.init({
-            duration : 2000
+            duration: 2000
         });
     }, [])
     return (
         <section className='aboutMe'>
             {/*<SegmentTitle title={"About Me"} src={aboutMe} alt={'About Me'}/>*/}
-            <div className='contentَAboutMe' >
+            <div className='contentَAboutMe'>
 
-                <p className='textAboutMe' style={!lightTheme ? {} : {color: "#a9a9a9"}} data-aos="fade-right" >
-                    Innovative frontend developer with more than 3 years of experience in developing and maintaining
-                    responsive websites focus on UI/UX interface in React JS library. Proficient in code
-                    development
-                    projects in modern working methodologies Plus, over 4 years of experience in marketing and
-                    SEO, make
-                    me a comprehensive perspective on different aspects of the business.
+                <p className='textAboutMe' style={!lightTheme ? {} : {color: "#a9a9a9"}} data-aos="fade-right">
+                    An innovative front-end developer with about three years of experience in developing and
+                    maintaining responsive websites focusing on the UI/UX interface in the React JS library and the Next
+                    JS framework.Proficient in code development projects in modern working methodologies, over four
+                    years of experience in marketing and SEO, give me a comprehensive perspective on different aspects of
+                    the business.
                 </p>
 
 
-                <div className='imgFrame' />
+                <div className='imgFrame'/>
 
             </div>
         </section>
