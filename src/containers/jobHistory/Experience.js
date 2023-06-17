@@ -6,7 +6,7 @@ import './Experience.scss';
 
 function Experience(props) {
     const {lightTheme} = useContext(SwitchContext);
-
+    console.log('props.img',props.img)
     return (
         <div className='Experience'
              style={!lightTheme ? {} : {background: "radial-gradient(circle, rgb(9 17 18) 0%, rgb(21 42 42 / 28%) 100%)",boxShadow: '0px 0px 15px -9px #077e5c'}}>

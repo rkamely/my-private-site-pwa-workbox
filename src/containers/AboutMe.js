@@ -21,13 +21,11 @@ function AboutMe() {
             <div className='contentَAboutMe'>
 
                 <p className='textAboutMe' style={!lightTheme ? {} : {color: "#a9a9a9"}} data-aos="fade-right">
-                    An innovative front-end developer with about three years of experience in developing and
-                    maintaining responsive websites focusing on the UI/UX interface in the React JS library and the Next
-                    JS framework.Proficient in code development projects in modern working methodologies, over four
-                    years of experience in marketing and SEO, give me a comprehensive perspective on different aspects of
-                    the business.
+                    A frontend developer with expertise in HTML, CSS, JavaScript, TypeScript, Next and React, I have
+                    developed and launched 3 successful e-commerce websites, 6 dashboard panels that improved data
+                    visibility and decision-making for 1000+ clients and 10 landing pages that contributed to increased
+                    conversion rates.
                 </p>
-
 
                 <div className='imgFrame'/>
 
